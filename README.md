@@ -1,1 +1,6 @@
-# SARANRAJ
+import matplotlib.pyplot as plt
+  plt.plot(data['date'], data['pollutant_column'])
+  plt.title('Pollutant Over Time')
+  plt.xlabel('Date')
+  plt.ylabel('Concentration')
+  plt.show()
